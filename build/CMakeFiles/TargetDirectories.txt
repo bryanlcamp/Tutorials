@@ -1,0 +1,5 @@
+/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/CMakeFiles/edit_cache.dir
+/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/CMakeFiles/rebuild_cache.dir
+/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v1/CMakeFiles/tutorial_spsc_v1.dir
+/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v1/CMakeFiles/edit_cache.dir
+/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v1/CMakeFiles/rebuild_cache.dir
