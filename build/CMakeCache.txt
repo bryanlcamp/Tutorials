@@ -128,7 +128,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Tutorials
+CMAKE_PROJECT_NAME:STATIC=SPSC_RingBuffer
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -196,13 +196,13 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Tutorials_BINARY_DIR:STATIC=/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build
+SPSC_RingBuffer_BINARY_DIR:STATIC=/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v3
 
 //Value Computed by CMake
-Tutorials_IS_TOP_LEVEL:STATIC=ON
+SPSC_RingBuffer_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Tutorials_SOURCE_DIR:STATIC=/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials
+SPSC_RingBuffer_SOURCE_DIR:STATIC=/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/spsc/v3
 
 
 ########################
@@ -293,7 +293,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

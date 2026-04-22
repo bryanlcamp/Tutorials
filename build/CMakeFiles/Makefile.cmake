@@ -94,6 +94,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeSystem.cmake"
   "/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/spsc/v1/CMakeLists.txt"
+  "/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/spsc/v2/CMakeLists.txt"
+  "/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/spsc/v3/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -110,9 +112,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "spsc/v1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "spsc/v2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "spsc/v3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/DependInfo.cmake"
+  "spsc/v1/CMakeFiles/spsc_v1_driver.dir/DependInfo.cmake"
+  "spsc/v2/CMakeFiles/spsc_v2_driver.dir/DependInfo.cmake"
+  "spsc/v3/CMakeFiles/spsc_v3_driver.dir/DependInfo.cmake"
   )

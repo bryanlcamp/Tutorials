@@ -117,42 +117,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/rule:
-	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/rule
-.PHONY : spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/rule
+spsc/v1/CMakeFiles/spsc_v1_driver.dir/rule:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v1/CMakeFiles/spsc_v1_driver.dir/rule
+.PHONY : spsc/v1/CMakeFiles/spsc_v1_driver.dir/rule
 
 # Convenience name for target.
-tutorial_spsc_v1: spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/rule
-.PHONY : tutorial_spsc_v1
+spsc_v1_driver: spsc/v1/CMakeFiles/spsc_v1_driver.dir/rule
+.PHONY : spsc_v1_driver
 
 # fast build rule for target.
-tutorial_spsc_v1/fast:
-	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/build.make spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/build
-.PHONY : tutorial_spsc_v1/fast
+spsc_v1_driver/fast:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/spsc_v1_driver.dir/build.make spsc/v1/CMakeFiles/spsc_v1_driver.dir/build
+.PHONY : spsc_v1_driver/fast
 
-tutorial_spsc_v1.o: tutorial_spsc_v1.cpp.o
-.PHONY : tutorial_spsc_v1.o
+driver_v1.o: driver_v1.cpp.o
+.PHONY : driver_v1.o
 
 # target to build an object file
-tutorial_spsc_v1.cpp.o:
-	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/build.make spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/tutorial_spsc_v1.cpp.o
-.PHONY : tutorial_spsc_v1.cpp.o
+driver_v1.cpp.o:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/spsc_v1_driver.dir/build.make spsc/v1/CMakeFiles/spsc_v1_driver.dir/driver_v1.cpp.o
+.PHONY : driver_v1.cpp.o
 
-tutorial_spsc_v1.i: tutorial_spsc_v1.cpp.i
-.PHONY : tutorial_spsc_v1.i
+driver_v1.i: driver_v1.cpp.i
+.PHONY : driver_v1.i
 
 # target to preprocess a source file
-tutorial_spsc_v1.cpp.i:
-	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/build.make spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/tutorial_spsc_v1.cpp.i
-.PHONY : tutorial_spsc_v1.cpp.i
+driver_v1.cpp.i:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/spsc_v1_driver.dir/build.make spsc/v1/CMakeFiles/spsc_v1_driver.dir/driver_v1.cpp.i
+.PHONY : driver_v1.cpp.i
 
-tutorial_spsc_v1.s: tutorial_spsc_v1.cpp.s
-.PHONY : tutorial_spsc_v1.s
+driver_v1.s: driver_v1.cpp.s
+.PHONY : driver_v1.s
 
 # target to generate assembly for a file
-tutorial_spsc_v1.cpp.s:
-	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/build.make spsc/v1/CMakeFiles/tutorial_spsc_v1.dir/tutorial_spsc_v1.cpp.s
-.PHONY : tutorial_spsc_v1.cpp.s
+driver_v1.cpp.s:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/spsc_v1_driver.dir/build.make spsc/v1/CMakeFiles/spsc_v1_driver.dir/driver_v1.cpp.s
+.PHONY : driver_v1.cpp.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tutorial_spsc_v1"
-	@echo "... tutorial_spsc_v1.o"
-	@echo "... tutorial_spsc_v1.i"
-	@echo "... tutorial_spsc_v1.s"
+	@echo "... spsc_v1_driver"
+	@echo "... driver_v1.o"
+	@echo "... driver_v1.i"
+	@echo "... driver_v1.s"
 .PHONY : help
 
 

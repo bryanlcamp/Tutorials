@@ -2,7 +2,9 @@
 	"InstallScripts" : 
 	[
 		"/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/cmake_install.cmake",
-		"/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v1/cmake_install.cmake"
+		"/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v1/cmake_install.cmake",
+		"/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v2/cmake_install.cmake",
+		"/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v3/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

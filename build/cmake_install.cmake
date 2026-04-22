@@ -42,6 +42,16 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v1/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v3/cmake_install.cmake")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

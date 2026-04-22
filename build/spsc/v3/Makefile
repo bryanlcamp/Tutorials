@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/CMakeFiles /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/CMakeFiles /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/spsc/v3//CMakeFiles/progress.marks
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v3/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v3/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,57 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v3/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v3/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named spsc_v1_driver
+# Convenience name for target.
+spsc/v3/CMakeFiles/spsc_v3_driver.dir/rule:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc/v3/CMakeFiles/spsc_v3_driver.dir/rule
+.PHONY : spsc/v3/CMakeFiles/spsc_v3_driver.dir/rule
 
-# Build rule for target.
-spsc_v1_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc_v1_driver
-.PHONY : spsc_v1_driver
-
-# fast build rule for target.
-spsc_v1_driver/fast:
-	$(MAKE) $(MAKESILENT) -f spsc/v1/CMakeFiles/spsc_v1_driver.dir/build.make spsc/v1/CMakeFiles/spsc_v1_driver.dir/build
-.PHONY : spsc_v1_driver/fast
-
-#=============================================================================
-# Target rules for targets named spsc_v2_driver
-
-# Build rule for target.
-spsc_v2_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc_v2_driver
-.PHONY : spsc_v2_driver
-
-# fast build rule for target.
-spsc_v2_driver/fast:
-	$(MAKE) $(MAKESILENT) -f spsc/v2/CMakeFiles/spsc_v2_driver.dir/build.make spsc/v2/CMakeFiles/spsc_v2_driver.dir/build
-.PHONY : spsc_v2_driver/fast
-
-#=============================================================================
-# Target rules for targets named spsc_v3_driver
-
-# Build rule for target.
-spsc_v3_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spsc_v3_driver
+# Convenience name for target.
+spsc_v3_driver: spsc/v3/CMakeFiles/spsc_v3_driver.dir/rule
 .PHONY : spsc_v3_driver
 
 # fast build rule for target.
 spsc_v3_driver/fast:
-	$(MAKE) $(MAKESILENT) -f spsc/v3/CMakeFiles/spsc_v3_driver.dir/build.make spsc/v3/CMakeFiles/spsc_v3_driver.dir/build
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v3/CMakeFiles/spsc_v3_driver.dir/build.make spsc/v3/CMakeFiles/spsc_v3_driver.dir/build
 .PHONY : spsc_v3_driver/fast
+
+driver_v3.o: driver_v3.cpp.o
+.PHONY : driver_v3.o
+
+# target to build an object file
+driver_v3.cpp.o:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v3/CMakeFiles/spsc_v3_driver.dir/build.make spsc/v3/CMakeFiles/spsc_v3_driver.dir/driver_v3.cpp.o
+.PHONY : driver_v3.cpp.o
+
+driver_v3.i: driver_v3.cpp.i
+.PHONY : driver_v3.i
+
+# target to preprocess a source file
+driver_v3.cpp.i:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v3/CMakeFiles/spsc_v3_driver.dir/build.make spsc/v3/CMakeFiles/spsc_v3_driver.dir/driver_v3.cpp.i
+.PHONY : driver_v3.cpp.i
+
+driver_v3.s: driver_v3.cpp.s
+.PHONY : driver_v3.s
+
+# target to generate assembly for a file
+driver_v3.cpp.s:
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(MAKE) $(MAKESILENT) -f spsc/v3/CMakeFiles/spsc_v3_driver.dir/build.make spsc/v3/CMakeFiles/spsc_v3_driver.dir/driver_v3.cpp.s
+.PHONY : driver_v3.cpp.s
 
 # Help Target
 help:
@@ -163,9 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... spsc_v1_driver"
-	@echo "... spsc_v2_driver"
 	@echo "... spsc_v3_driver"
+	@echo "... driver_v3.o"
+	@echo "... driver_v3.i"
+	@echo "... driver_v3.s"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

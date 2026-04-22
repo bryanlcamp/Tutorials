@@ -1,2 +1,2 @@
-# Empty dependencies file for tutorial_spsc_v1.
+# Empty dependencies file for spsc_v2_driver.
 # This may be replaced when dependencies are built.

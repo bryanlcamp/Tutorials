@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cs/professional/tutoring/Tutorials/spsc/v1
 
-CXX_FLAGSarm64 =  -arch arm64
+CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 
-CXX_FLAGS =  -arch arm64
+CXX_FLAGS = -std=gnu++20 -arch arm64
 
