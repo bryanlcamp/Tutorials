@@ -27,5 +27,5 @@ cmake --build .
 echo "Build complete! Binaries are located in the 'bin' directory."
 
 # Optional: List contents of the bin directory
-echo "Contents of bin/ directory:"
-ls ../bin
+#echo "Contents of bin/ directory:"
+#ls ../bin
